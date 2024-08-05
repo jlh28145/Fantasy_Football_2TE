@@ -1,10 +1,10 @@
 # Project Name
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
+2 Top 12 Tight Ends on the Same Team
 
-#### -- Project Status: [Active, On-Hold, Completed]
+#### -- Project Status: Active
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
+The purpose of this project is to do an EDA on a fantasy football dataset spanning over ten years. Premise we are looking into is the likelihood of 2 Tight Ends from the same team can finish Top 12 in fantasy football. The scoring used is PPR scoring and the ranking of the players is based on season total not points per game. The idea of this EDA came from the NFL reports that the Baltimore Ravens where going to use their 2nd string TE (I.Likely) more in the offense this year. The Ravens already have a top 5 ranked TE on their offense in M. Andrews so I wanted to research if Likely could be a sleeper in a way and what is the possibility of that happening. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
 
 ### Methods Used
 * Inferential Statistics
@@ -14,26 +14,21 @@ The purpose of this project is ________. (Describe the main goals of the project
 * etc.
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
 * Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Seaborn
+* nfl-data-py 
 
 ## Project Description
+For this project, I decided to take the last ten years of fantasy football data for TEs. For fantasy football leagues, usually are based on 12 team PPR scoring with one TE slot. So we will be looking at the top 12 ranked TEs for the past ten years. For the data source, retired players have their teams marked as FA, which we have to replace with their actual team for that specific season. Questions for this project are how often has two TEs from the same team have been Top 12 in PPR scoring, what stats were needed for both players to produce (target share, touchdown share,etc), and how big of a jump does I. Likely need to make to become a Top 12 TE in 2024. 
 (Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
 
 ## Needs of this project
 
-- frontend developers
 - data exploration/descriptive statistics
 - data processing/cleaning
 - statistical modeling
 - writeup/reporting
-- etc. (be as specific as possible)
 
 ## Project Organization
 ------------
@@ -79,25 +74,6 @@ The purpose of this project is ________. (Describe the main goals of the project
     │       └── visualize.py
     └── 
 
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
 
 ## Contact 
-* Our slack channel is `#datasci-projectname`
 * Feel free to contact with any questions or if you are interested in contributing - https://www.linkedin.com/in/juvarne-hinson/
