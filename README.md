@@ -1,7 +1,7 @@
 # Project Name
 2 Top 12 Tight Ends on the Same Team
 
-#### -- Project Status: Active
+#### -- Project Status: Completed
 
 ## Project Intro/Objective
 The purpose of this project is to do an EDA on a fantasy football dataset spanning over ten years. Premise we are looking into is the likelihood of 2 Tight Ends from the same team can finish Top 12 in fantasy football. The scoring used is PPR scoring and the ranking of the players is based on season total not points per game. The idea of this EDA came from the NFL reports that the Baltimore Ravens where going to use their 2nd string TE (I.Likely) more in the offense this year. The Ravens already have a top 5 ranked TE on their offense in M. Andrews so I wanted to research if Likely could be a sleeper in a way and what is the possibility of that happening. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
